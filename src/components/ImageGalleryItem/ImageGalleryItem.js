@@ -3,7 +3,7 @@ import { ListItem, Picture } from './ImageGalleryItem.styled';
 import PropTypes from 'prop-types';
 import { Modal } from 'components/Modal/Modal';
 
-const ImageGalleryItem = ({ item }) => {
+export const ImageGalleryItem = ({ item }) => {
   const [shownModal, setShownModal] = useState(false);
 
  const onModal = () => {
